@@ -204,3 +204,33 @@ async function addEmployee() {
         console.error('Error adding employee:', err);
     }
 }
+
+
+// Async function to update an employee role
+async function updateEmployeeRole() {
+    try {
+        const [employees] = await connection.query("SELECT id, CONCAT(first_name, ' ', last_name) AS name FROM employee");
+        const [roles] = await connection.query("SELECT id, title FROM roles");
+
+        const answers = await inquirer.prompt([
+            {
+                type: "list",
+                name: "employeeId",
+                message: "Select the employee to update:",
+                choices: employees.map(emp => ({ name: emp.name, value: emp.id }))
+            },
+            {
+                type: "list",
+                name: "roleId",
+                message: "Select the new role:",
+                choices: roles.map(role => ({ name: role.title, value: role.id }))
+            }
+        ]);
+
+        const updateQuery = "UPDATE employee SET role_id = ? WHERE id = ?";
+        await connection.query(updateQuery, [answers.roleId, answers.employeeId]);
+        console.log('Employee role updated successfully.');
+    } catch (err) {
+        console.error('Error updating employee role:', err);
+    }
+}
