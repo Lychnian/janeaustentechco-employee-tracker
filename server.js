@@ -94,3 +94,20 @@ async function viewAllRoles() {
         console.error('Error fetching roles:', err);
     }
 }
+
+// Async function to view all employees
+async function viewAllEmployees() {
+    try {
+        const query = `
+            SELECT e.id, e.first_name, e.last_name, r.title, d.department_name, r.salary, 
+            CONCAT(m.first_name, ' ', m.last_name) AS manager_name
+            FROM employee e
+            LEFT JOIN roles r ON e.role_id = r.id
+            LEFT JOIN departments d ON r.department_id = d.id
+            LEFT JOIN employee m ON e.manager_id = m.id`;
+        const [rows] = await connection.query(query);
+        console.table(rows);
+    } catch (err) {
+        console.error('Error fetching employees:', err);
+    }
+}
