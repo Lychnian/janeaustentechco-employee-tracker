@@ -60,8 +60,8 @@ async function start() {
             case "Update an employee role":
                 await updateEmployeeRole();
                 break;
-            case "Exit":
-                console.log("Goodbye! Have a nice day!");
+            case "EXIT":
+                console.log("Farewell, and may your day be most delightful!");
                 connection.end();
                 return;
         }

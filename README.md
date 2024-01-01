@@ -104,10 +104,3 @@ N/A
 
 
 ![Elizabeth and Mr Darcy about Wickham](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/02195a04-5468-4efb-a90b-4670e0b1ef4c)
-
-
-
-
-
-
-
