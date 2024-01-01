@@ -1,5 +1,6 @@
 # JANE AUSTEN TECH CO EMPLOYEE TRACKER
-![Box Hill Picnic](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/c07a63c1-6988-4761-9412-f2b608bf7457)
+![Box Hill Edited](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/a0211a76-4c51-47c0-ac59-91ba32d5bd9e)
+
 
 
 ## Badges
@@ -98,3 +99,10 @@ N/A
 - MYSQL asynchronous operations: https://dev.mysql.com/doc/x-devapi-userguide/en/synchronous-vs-asynchronous-execution.html
 - First Illustration: Illustration by Christine Mary Demain Hammond of Box Hill, from 1898 "Emma."  (Public Domain.) Edited by Helen Colon 12/23.
 - Second Illustration: Illustration by Hugh Thomson of Elizabeth and Mr. Darcy, from the 1894 London edition of “Pride and Prejudice.” (Public Domain.) Edited by Helen Colon 12/23.
+
+
+
+![Elizabeth and Mr Darcy](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/5e4fe547-8c8d-443b-b4d8-151121a57a61)
+
+
+  
