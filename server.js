@@ -72,3 +72,25 @@ async function start() {
         await start();
     }
 }
+
+// Async function to view all departments
+async function viewAllDepartments() {
+    try {
+        const query = "SELECT * FROM departments";
+        const [rows] = await connection.query(query);
+        console.table(rows);
+    } catch (err) {
+        console.error('Error fetching departments:', err);
+    }
+}
+
+// Async function to view all roles
+async function viewAllRoles() {
+    try {
+        const query = "SELECT roles.title, roles.id, departments.department_name, roles.salary FROM roles JOIN departments ON roles.department_id = departments.id";
+        const [rows] = await connection.query(query);
+        console.table(rows);
+    } catch (err) {
+        console.error('Error fetching roles:', err);
+    }
+}
