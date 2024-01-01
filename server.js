@@ -111,3 +111,21 @@ async function viewAllEmployees() {
         console.error('Error fetching employees:', err);
     }
 }
+
+// Async function to add a department
+async function addDepartment() {
+    try {
+        const answer = await inquirer.prompt({
+            type: "input",
+            name: "name",
+            message: "Enter the name of the new department:"
+        });
+
+        const query = `INSERT INTO departments (department_name) VALUES (?)`;
+        await connection.query(query, [answer.name]);
+        console.log(`Added department ${answer.name} to the database!`);
+    } catch (err) {
+        console.error('Error adding department:', err);
+    }
+}
+
