@@ -205,7 +205,6 @@ async function addEmployee() {
     }
 }
 
-
 // Async function to update an employee role
 async function updateEmployeeRole() {
     try {
@@ -234,3 +233,25 @@ async function updateEmployeeRole() {
         console.error('Error updating employee role:', err);
     }
 }
+
+// Starting the application with a connection to the database
+initializeDatabase().then(connection => {
+    global.connection = connection; // Making connection globally available
+    cfonts.say('Jane Austen Tech Co\nEmployee Tracker', {
+        font: 'chrome',
+        align: 'left',
+        colors: ['red'],
+        background: 'transparent',
+        letterSpacing: 1,
+        lineHeight: 1,
+        space: true,
+        maxLength: '0',
+        gradient: false,
+        independentGradient: false,
+        transitionGradient: false,
+        env: 'node'
+    });
+    start();
+}).catch(err => {
+    console.error('Failed to start application:', err);
+});
