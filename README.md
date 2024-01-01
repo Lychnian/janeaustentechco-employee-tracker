@@ -99,3 +99,10 @@ N/A
 
 
 - Second Illustration: Illustration by Hugh Thomson of Elizabeth and Mr. Darcy, from the 1894 London edition of “Pride and Prejudice.” (Public Domain) Edited by Helen Colon 12/23.
+
+
+
+![Elizabeth and Mr Darcy](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/5e4fe547-8c8d-443b-b4d8-151121a57a61)
+
+
+  
