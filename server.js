@@ -129,3 +129,34 @@ async function addDepartment() {
     }
 }
 
+// Async function to add a role
+async function addRole() {
+    try {
+        const [departments] = await connection.query("SELECT * FROM departments");
+        const answers = await inquirer.prompt([
+            {
+                type: "input",
+                name: "title",
+                message: "Enter the title of the new role:"
+            },
+            {
+                type: "input",
+                name: "salary",
+                message: "Enter the salary of the new role:"
+            },
+            {
+                type: "list",
+                name: "department",
+                message: "Select the department for the new role:",
+                choices: departments.map(dept => dept.department_name)
+            }
+        ]);
+
+        const department = departments.find(dept => dept.department_name === answers.department);
+        const query = "INSERT INTO roles (title, salary, department_id) VALUES (?, ?, ?)";
+        await connection.query(query, [answers.title, answers.salary, department.id]);
+        console.log(`Added role ${answers.title} to the database!`);
+    } catch (err) {
+        console.error('Error adding role:', err);
+    }
+}
