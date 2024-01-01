@@ -83,7 +83,7 @@ The application will interact with the MySQL database to store and retrieve info
 
 
 ## Demo Video
-To see this application in action, watch my YouTube walkthrough video that demonstrates how to use the application, including navigating through the menu options to view data and/or update data. YouTube URL:
+To see this application in action, maybe over a hot cup of Twinings tea, watch my YouTube walkthrough video that demonstrates how to use the application, including navigating through the menu options to view data and/or update data. YouTube URL:
 
 
 ## Screenshots
