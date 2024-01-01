@@ -1,4 +1,5 @@
 # JANE AUSTEN TECH CO EMPLOYEE TRACKER
+![Box Hill Picnic](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/c07a63c1-6988-4761-9412-f2b608bf7457)
 
 
 ## Badges
