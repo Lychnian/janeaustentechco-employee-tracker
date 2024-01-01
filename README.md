@@ -31,59 +31,48 @@ The Jane Austen Tech Co Employee Tracker is a command-line application built usi
 
 
 ## Features 
-View All Departments: Delight in a formatted table displaying the names and IDs of various departments within Jane Austen Tech Co.
-
-View All Roles: Discover the diverse job titles, role IDs, associated departments, and salaries of employees, mirroring the intriguing hierarchy of this fictitious tech company.
-
-View All Employees: Immerse yourself in a meticulously crafted table that showcases employee data, including IDs, first names, last names, job titles, departments, salaries, and the managers they report to—all inspired by beloved characters from Jane Austen's novels.
-
-Add a Department: Elegantly add a new department to Jane Austen Tech Co by providing its name, allowing you to expand the boundaries of this literary workplace.
-
-Add a Role: Craft new roles with grace and precision by entering the role's name, salary, and department, further shaping the dynamic environment of the company.
-
-Add an Employee: Navigate the social intricacies of the Regency era as you introduce new employees to the story. Provide their first name, last name, role, and manager's details, bringing fresh characters into Jane Austen Tech Co.
-
-Update an Employee Role: Engage in the art of matchmaking within the company by selecting an employee to update and assigning them a new role, evolving the narrative within the organization.
+- View All Departments: Delight in a formatted table displaying the names and IDs of various departments within Jane Austen Tech Co.
+- View All Roles: Discover the diverse job titles, role IDs, associated departments, and salaries of employees, mirroring the intriguing hierarchy of this fictitious tech company.
+- View All Employees: Immerse yourself in a meticulously crafted table that showcases employee data, including IDs, first names, last names, job titles, departments, salaries, and the managers they report to—all inspired by beloved characters from Jane Austen's novels.
+- Add a Department: Elegantly add a new department to Jane Austen Tech Co by providing its name, allowing you to expand the boundaries of this literary workplace.
+- Add a Role: Craft new roles with grace and precision by entering the role's name, salary, and department, further shaping the dynamic environment of the company.
+- Add an Employee: Navigate the social intricacies of the Regency era as you introduce new employees to the story. Provide their first name, last name, role, and manager's details, bringing fresh characters into Jane Austen Tech Co.
+- Update an Employee Role: Engage in the art of matchmaking within the company by selecting an employee to update and assigning them a new role, evolving the narrative within the organization.
 
 
 ## Technologies Used
-
-Node.js: The literary backdrop for executing the application, offering a seamless connection to Jane Austen Tech Co.
-
-Inquirer: The conversational partner that gracefully guides you through the application's Regency-inspired interactions.
-
-MySQL:  For meticulously storing and retrieving data within the Jane Austen Tech Co Employee Tracker.
-
-MySQL2: The modern interpreter that connects the past and the present, allowing you to perform database queries with elegance and precision.
-
+- Node.js: The literary backdrop for executing the application, offering a seamless connection to Jane Austen Tech Co.
+- Inquirer: The conversational partner that gracefully guides you through the application's Regency-inspired interactions.
+- MySQL:  For meticulously storing and retrieving data within the Jane Austen Tech Co Employee Tracker.
+- MySQL2: The modern interpreter that connects the past and the present, allowing you to perform database queries with elegance and precision.
 
 
 ## Installation
-You can install this application using the following steps:
+To install this delightful application with a touch of Jane Austen flair, follow these steps:
 
-1. clone my repository at https://github.com/Lychnian/janeaustentechco-employee-tracker to your local machine by going to your terminal/gitbash
-2. go to the directory you wish to clone the repository
-3. type the following: git clone https://github.com/Lychnian/janeaustentechco-employee-tracker.git (enter)
-4. with the files now installed, go to your code editor (ex: VS Code) in your program directory install the dependencies with the command npm install inquirer@8.2.4
+1. Begin by cloning my repository at https://github.com/Lychnian/janeaustentechco-employee-tracker to your local machine using your preferred terminal or gitbash.
+2. Navigate to the directory where you wish to clone the repository.
+3. Type the following command with an air of elegance:
+        git clone https://github.com/Lychnian/janeaustentechco-employee-tracker.git
+4. Now that you have the charming files installed, venture to your code editor, such as VS Code. In your program directory, bestow the necessary dependencies upon your application with the command:
+        npm install inquirer@8.2.4
 
 
 ## Usage
-To use the Jane Austen Tech Co Employee Tracker, follow these steps:
+To gracefully employ the Jane Austen Tech Co Employee Tracker, follow these refined steps:
 
-1. Open your terminal.
-2. Navigate to the project directory.
-3. Run the application using the following command:
-
- node server.js
-
-4. When you run the application, you will be presented with a menu of options. Choose an option by using the arrow keys and pressing Enter.
-Follow the prompts to perform tasks such as viewing data, adding departments, roles, employees, or updating employee roles.
-
-The application will interact with the MySQL database to store and retrieve information.
+1. Open your terminal, the gateway to this virtual Regency era.
+2. Glide to the project directory with the elegance of a well-mannered debutante.
+3. Invoke the application using this command, as if inviting it to a grand ball:
+        node server.js
+4. As you run the application, a menu of options shall unfold before you. Make your selections with the poise and grace of a lady or gentleman of impeccable breeding. Follow the prompts to execute tasks such as viewing data, adding departments, roles, employees, or updating employee roles.
+The application shall interact with the MySQL database, much like characters in one of Jane Austen's novels, storing and retrieving information with the utmost decorum.
 
 
 ## Demo Video
-To see this application in action, maybe over a hot cup of Twinings tea, watch my YouTube walkthrough video that demonstrates how to use the application, including navigating through the menu options to view data and/or update data. YouTube URL:
+To witness this charming application in action, perhaps while sipping a hot cup of Twinings tea, please enjoy my YouTube walkthrough video. In this video, I shall demonstrate how to use the application with the elegance and precision of a well-mannered Regency-era dance. Join me in navigating through the menu options to view and update data.
+
+YouTube URL: [Insert Your YouTube Video URL Here]
 
 
 ## Screenshots
