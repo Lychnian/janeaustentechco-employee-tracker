@@ -94,5 +94,8 @@ N/A
 
 ## Sources
 
-npm cfonts: https://www.npmjs.com/package/cfonts
-MYSQL asynchronous operations: https://dev.mysql.com/doc/x-devapi-userguide/en/synchronous-vs-asynchronous-execution.html
+- npm cfonts: https://www.npmjs.com/package/cfonts
+- MYSQL asynchronous operations: https://dev.mysql.com/doc/x-devapi-userguide/en/synchronous-vs-asynchronous-execution.html
+
+
+- Second Illustration: Illustration by Hugh Thomson of Elizabeth and Mr. Darcy, from the 1894 London edition of “Pride and Prejudice.” (Public Domain) Edited by Helen Colon 12/23.
