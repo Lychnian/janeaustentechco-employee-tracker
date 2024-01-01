@@ -160,3 +160,47 @@ async function addRole() {
         console.error('Error adding role:', err);
     }
 }
+
+// Async function to add an employee
+async function addEmployee() {
+    try {
+        const [roles] = await connection.query("SELECT id, title FROM roles");
+        const rolesChoices = roles.map(role => ({ name: role.title, value: role.id }));
+
+        const [managers] = await connection.query('SELECT id, CONCAT(first_name, " ", last_name) AS name FROM employee');
+        const managerChoices = [{ name: "No Manager", value: null }].concat(
+            managers.map(manager => ({ name: manager.name, value: manager.id }))
+        );
+
+        const answers = await inquirer.prompt([
+            {
+                type: "input",
+                name: "firstName",
+                message: "Enter the employee's first name:"
+            },
+            {
+                type: "input",
+                name: "lastName",
+                message: "Enter the employee's last name:"
+            },
+            {
+                type: "list",
+                name: "roleId",
+                message: "Select the employee's role:",
+                choices: rolesChoices
+            },
+            {
+                type: "list",
+                name: "managerId",
+                message: "Select the employee's manager:",
+                choices: managerChoices
+            }
+        ]);
+
+        const sql = "INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?, ?, ?, ?)";
+        await connection.query(sql, [answers.firstName, answers.lastName, answers.roleId, answers.managerId || null]);
+        console.log("Employee added successfully");
+    } catch (err) {
+        console.error('Error adding employee:', err);
+    }
+}
