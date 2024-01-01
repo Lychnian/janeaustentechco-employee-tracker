@@ -106,3 +106,4 @@ N/A
 ## Sources
 
 npm cfonts: https://www.npmjs.com/package/cfonts
+MYSQL asynchronous operations: https://dev.mysql.com/doc/x-devapi-userguide/en/synchronous-vs-asynchronous-execution.html
