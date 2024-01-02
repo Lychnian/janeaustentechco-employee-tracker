@@ -73,19 +73,83 @@ The application shall interact with the MySQL database, much like characters in 
 ## Demo Video
 To witness this charming application in action, perhaps while sipping a hot cup of Twinings tea, please enjoy my YouTube walkthrough video. In this video, I shall demonstrate how to use the application with the elegance and precision of a well-mannered Regency-era dance. Join me in navigating through the menu options to view and update data.
 
-YouTube URL: [Insert Your YouTube Video URL Here]
+YouTube URL: [https://youtu.be/aJry5LAwG3M]
 
 
 ## Screenshots
+
+
+![JAinstalldependencies](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/249ad9d1-dab7-410a-a15a-42126c9ffd65)
+
+
+
+
+![JA schemafile](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/197f8909-0e21-45a5-b1eb-6a09df84be24)
+
+
+
+
+![JA seedssql file](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/d877e42f-7963-46d6-b64a-6e862b80fb17)
+
+
+
+
+![JA serverjs file](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/d48738d3-83d5-4a1f-9042-9633b443948d)
+
+
+
+
+![JA nodeserverjs](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/15d5afe2-abb4-460d-8034-ecd53e0ed122)
+
+
+
+
+![JA csfontheacing](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/174f0813-e0f5-407c-ba0a-cadc853afc9e)
+
+
+
+
+![JA view departments](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/95793d20-87bb-4935-8c9d-f68f839e4f7b)
+
+
+
+
+![JA view all roles](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/cf307842-529f-470d-b319-fc62bd624bbf)
+
+
+
+
+
+![JA view all employees](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/1eb82683-1a83-4d4c-8860-d74a9d6fe761)
+
+
+
+
+![JA add dept success](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/addb1f0a-6081-4f3c-b929-398beb147eec)
+
+
+
+
+![JA new role success](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/6d25da97-9903-4dce-9d19-a6bc98d24af0)
+
+
+
+
+![JA new employee Darcy mgr](https://github.com/Lychnian/janeaustentechco-employee-tracker/assets/140586279/5e2398e4-3835-4e3e-82f6-9b6001f2a88e)
+
+
 
 
   
 ## How to Contribute
 [Contributor Covenant](https://www.contributor-covenant.org/)  
 
+
+
   
 ## Tests
 N/A
+
 
 
 ## Questions?
